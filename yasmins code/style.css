@@ -81,6 +81,11 @@ h2 {
 	text-underline-position: below;
 }
 
+.nav-item{
+	padding-left: 20px;
+}
+
+
 .section-name {
 	display: block;
 	width: 100%;
