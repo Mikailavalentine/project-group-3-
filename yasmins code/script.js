@@ -27,6 +27,31 @@ loginForm.addEventListener("submit", async (event) => {
   }
 });
 
+
 // Registration Form
 const registerForm = document.getElementById("register-form");
-registerForm.addEventListener("submit");
+registerForm.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const email = document.getElementById("register-email").value;
+  const password = document.getElementById("register-password").value;
+  try {
+    const response = await fetch("/api/register", {
+      method: "POST",
+      body: JSON.stringify({ email, password }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    if (response.ok) {
+      // Registration successful, redirect to the dashboard
+      window.location.href = "/dashboard";
+    } else {
+      // Registration failed, show error message
+      const data = await response.json();
+      alert(data.message);
+    }
+  } catch (error) {
+    console.error(error);
+    alert("An error occurred, please try again later.");
+  }
+});
