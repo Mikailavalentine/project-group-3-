@@ -11,9 +11,10 @@
     <input id="search"><button onclick="getrecipe(document.getElementById('search').value)">Search</button>
     <div id="output"></div>
     <a href="" id="sourceLink"></a>
+    <p>Hello this is a tester to make sure everything is loading correctly</p>
 
     <script>
-        // Replace this with your own Spoonacular API key
+        // This is the area for the API key
         const apiKey = "0043711dcf8a417e89708a1af0cfbaa7";
     
         function getsource(id){
@@ -28,7 +29,7 @@
                 }
             });
         }
-    
+
         function getrecipe(q){
             $.ajax({
                 url:`https://api.spoonacular.com/recipes/search?apiKey=${apiKey}&number=1&query=${q}`,
@@ -43,3 +44,7 @@
             });
         }
     </script>
+
+    <!-- DESCRIPTION OF FUNCTION 
+    
+    The idea is that this will eventually have the API KEY stored within the README-->
