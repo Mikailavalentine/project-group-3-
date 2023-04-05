@@ -99,13 +99,14 @@ h2 {
 
 }
 .main-image {
+/*this will add blur/*
+	/*	  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */ 
 	width: auto;
 	padding: 1em 0;
 	text-align: center;
 	height: 50vh;
 	margin: auto;
 	display: block;
-		  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
 	background-image: url(https://dl.glitter-graphics.com/pub/2102/2102357va14zjo4mu.jpg);
 	background-position: top;
 	background-size: cover;
