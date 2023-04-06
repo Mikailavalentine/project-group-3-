@@ -1,0 +1,6 @@
+hey so, I think that we should use the "Recipe by API-Ninjas" API as it is well rated and is seemingly simple,
+I am going to try to hook it up to the front End by start of class wednesday, 
+and I also think that we should add an api that allows people to do some kind of rating system
+
+
+Also the Server.js, and app.js are under development need to be formatted and also the code within may need to be put into other files as to create organization
