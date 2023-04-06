@@ -2,8 +2,10 @@
 <section class="main-image">
       <h1 class="main">Feeling hungry? Find your favorite recipe here!</h1>
       <div class="search">
-        <input type="search" placeholder="find a recipe">
-        <button id="find">FIND</button>
+        <!-- these 2 lines of code run the API when click Search -->
+    <input id="search"><button onclick="getrecipe(document.getElementById('search').value)">Search</button>
+    <div id="output"></div>
+    <a href="" id="sourceLink"></a>
       </div>
     </section>
         
@@ -59,3 +61,5 @@
                 </footer>
             </article>
     </section>
+<!-- added this here just in case -->
+    <script src="/config.js"></script>
