@@ -48,7 +48,7 @@ registerForm.addEventListener("submit", async (event) => {
     } else {
       // Registration failed, show error message
       const data = await response.json();
-      alert(data.message);
+     console.log(data.message);
     }
   } catch (error) {
     console.error(error);
