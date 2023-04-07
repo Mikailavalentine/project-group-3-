@@ -2,7 +2,7 @@
 This is a recipe generator website that uses the Spoonacular API to generate recipes based on user's choices. Users can select their preferred ingredients, cuisine type, and dietary restrictions, and the website will generate a recipe for them.
 
 ## Getting Started
-To use the recipe generator, simply navigate to the website and select the desired ingredients, cuisine type, and dietary restrictions. The website will then generate a recipe for the user based on their choices.
+To use the recipe generator, simply navigate to the website and select the desired food choice. The website will then generate a recipe for the user based on their choices.
 
 ## Spoonacular API
 This website uses the Spoonacular API to generate recipes. The Spoonacular API provides a wide variety of recipes and cooking information. By using the Spoonacular API, this website is able to provide users with a diverse selection of recipes.
